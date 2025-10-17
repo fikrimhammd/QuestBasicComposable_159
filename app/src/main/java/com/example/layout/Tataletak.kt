@@ -79,7 +79,7 @@ fun TataletakColumn(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
             .fillMaxWidth()
-            .padding(16.dp),
+            .padding(50.dp),
         verticalArrangement = Arrangement.SpaceEvenly
     ) {
         Text(text = "Column Item 1")
