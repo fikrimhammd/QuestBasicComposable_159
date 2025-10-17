@@ -23,7 +23,7 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
             .fillMaxSize()
-            .padding(16.dp)
+            .padding(20.dp)
     ) {
         // Kolom pertama: hanya teks
         Column(
