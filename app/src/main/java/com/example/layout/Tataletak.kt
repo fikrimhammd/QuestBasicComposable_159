@@ -136,4 +136,10 @@ fun TataletakColumnRow(modifier: Modifier = Modifier) {
 }
 
 
+@Composable
+@androidx.compose.ui.tooling.preview.Preview(showBackground = true)
+fun PreviewTataletakColumnRow() {
+    TataletakColumnRow()
+}
+
 
