@@ -74,3 +74,17 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
 }
 
 
+@Composable
+fun TataletakColumn(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(16.dp),
+        verticalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Text(text = "Column Item 1")
+        Text(text = "Column Item 2")
+        Text(text = "Column Item 3")
+    }
+}
+
