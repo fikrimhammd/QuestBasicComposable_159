@@ -121,7 +121,7 @@ fun TataletakColumnRow(modifier: Modifier = Modifier) {
             Text(text = "Komponen 3 Baris 1")
         }
 
-        Spacer(modifier = Modifier.height(10.dp))
+        Spacer(modifier = Modifier.height(50.dp))
 
         // Baris 2
         Row(
